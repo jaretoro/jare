@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+   <script src="https://kit.fontawesome.com/f96754b3c9.js"
+    crossOrigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+     <style>
+        body{
+            /* background-color: red; */
+           background-image: url(/pictures/cool.jfif);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 200vh;
+        }
+        p{
+            color: black;
+            text-align: center;
+         border-style: double;
+         border-color: blue brown green yellow;
+         margin-top: 200px;
+         margin-bottom: 150px;
+         margin-left: 100px;
+         margin-right: 200px;
+        
+        }
+        p{
+            outline-style: dashed;
+            text-decoration: overline green;
+            font-style: oblique;
+        }
+        button{
+            display: block;
+        }
+        #myborder{
+display: none;
+        }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li{
+        float: right;
+        
+    
+    }
+    li a{
+        display: block;
+        padding: 9px;
+        color: black;
+        
+    }
+    li a.active{
+        background-color: rgb(20, 20, 49);
+        color: brown;
+    }
+    body{
+        counter-reset: section;
+    }
+    h1::before{
+        counter-increment: section;
+        content:"section "   counter(section)  ".";
+        text-transform: uppercase;
+    }
+     </style>
+<body>
+    <h1>PRACTICE</h1>
+    <!--forms practice-->
+    <form action="">
+        <label for="">HTML</label><br>
+        <input type="" id="HTML" name="fav_language">
+        <input type="checkbox" id="css" name="fav_language">
+        <label for="">css</label><br>
+        <input type="checkbox" id="javascript" name="fav_language">
+        <label for="javascript">javascript</label>
+    </form>
+    <form action="">
+        <label for="football teams">pick your favourite team</label>
+        <select name="football teams" id="football teams">
+        <option value="manchester united">manchester united</option>
+        <option value="liverpool">liverpool</option>
+</select>
+<input type="submit">
+    </form>
+    <button type="button" onclick="alert('hello world')"> click here</button>
+    <form action="">
+        <input list="letters">
+        <datalist id="letters">
+            <option value="a">
+                <option value="b">
+                    <option value="c">
+                        <option value="d">
+        </datalist>
+    </form>
+    <p id="myborder">border practice </p>
+
+<button id="mybutton">click</button>
+
+
+<script>
+let mybutton = document.getElementById('mybutton');
+let myborder = document.getElementById('myborder');
+mybutton.addEventListener('click',function () {
+    myborder.style.display = 'block'
+})
+</script>
+ <h1>HTML/CSS Tutorials</h1> 
+<h2>HTML</h2>
+<h2>CSS</h2>
+<h2>Bootstrap</h2>
+<h2>W3.CSS</h2>
+
+<h1>Scripting Tutorials</h1>
+<h2>JavaScript</h2>
+<h2>jQuery</h2>
+<h2>React</h2>
+
+<h1>Programming Tutorials</h1>
+<h2>Python</h2>
+<h2>Java</h2>
+<h2>C++</h2>
+
+
+</body>
+</html>

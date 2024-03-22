@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h2>Sign In</h2>
+    <form action="">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username"><br><br>
+    
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br><br> 
+
+    <button onclick="signIn()">Login</button>
+    <p id="message"></p>
+</form>
+
+    <script>
+        function signIn(){
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            
+            if(username == "admin" && password == "admin"){
+                document.getElementById("message").innerHTML = `Welcome ${username}!`;
+            }else{
+                document.getElementById("message").innerHTML = "Invalid Username or Password";
+            }
+        }
+    </script> --> 
+    <!-- Write a series of conditional statements that:
+
+Prints "not a group" if musicians is less than or equal to 0
+Prints "solo" if musicians is equal to 1
+Prints "duet" if musicians is equal to 2
+Prints "trio" if musicians is equal to 3
+Prints "quartet" if musicians is equal to 4
+Prints "this is a large group" if musicians is greater than 4 -->
+
+<script>
+//     let musicians = 5; // You can change the value of musicians to test different cases
+
+// if (musicians <= 0) {
+//     console.log("not a group");
+// } else if (musicians === 1) {
+//     console.log("solo");
+// } else if (musicians === 2) {
+//     console.log("duet");
+// } else if (musicians === 3) {
+//     console.log("trio");
+// } else if (musicians === 4) {
+//     console.log("quartet");
+// } else {
+//     console.log("this is a large group");
+// }
+
+
+    //flavour = vanilla , chocolate
+    // vessel = cone, bowl
+    // toppings = sprinkles, peanuts
+    let flavour = "vanilla";
+    let vessel = "cone";
+    let  toppings = "sprinkles";
+    if((flavour === "vanilla" || flavour === "chocolate" ) && (vessel === "cone"  || vessel === "bowl") && (toppings === "sprinkles" || toppings === "peanuts")){
+        console.log("I'd like two scoops of " + flavour + " ice cream in a " + vessel + " with " + toppings + ".");
+    }
+
+</script>
+</body>
+</html>

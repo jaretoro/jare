@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(29, 29, 68);
+    color: rgb(29, 29, 68);
+}
+.original{
+    display: block;
+    margin-top: 150px;
+}
+.container{
+    margin: auto ;
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    border-radius: 7px;
+    background-color: white;
+}
+h2{
+    font-weight:700PX;
+}
+.in{
+    display: flex;
+}
+.little{
+    width: 3%;
+}
+.real{
+    height: 20px;
+    width: 240px;
+}
+input{
+    border-radius: 5px;
+}
+.but{
+    background-color: rgb(29, 29, 68);
+    border-radius: 5px;
+    width: 240px;
+    height: 40px;
+}
+.huge{
+    width: 300px;
+}
+.but:hover{
+    background: linear-gradient(90deg, pink, rgb(219, 102, 121), rgb(148, 31, 50), red);
+}

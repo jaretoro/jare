@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+     padding: 0;
+}
+.body{
+    background-color: #236ca8;
+}
+.first-nav{
+    height: 30px;
+    display: flex;
+    background-color: rgb(82, 76, 76);
+}
+img{
+    width: 30px;
+}
+.left-nav{
+    margin-left: 10px;
+    display: flex;
+}
+.left-nav2{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 15px;
+}
+h4{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.origin{
+    height: 600px;
+    background: linear-gradient(90deg, rgb(47, 145, 211)0, rgb(82, 182, 233)25%,  rgb(120, 199, 237)50%,  rgb(155, 233, 133)83%);
+}
+h3{
+    /* float: left; */
+}
+.nav2{
+    display: flex;
+}
+ul{
+    margin-top: 10px;
+    margin-left: 800px;
+    display: flex;
+
+}
+li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+#dif{
+    margin-top: 0;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+#dif{}
+.word{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wcon{
+    margin-bottom: 150px;
+}
+.big{
+    margin-top: 20px;
+    align-self: center;
+    font-size: 50px;
+}
+.small{
+    margin-top: 25px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+h6{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.lay{
+   align-self: center;
+    display:flex;
+     gap: 40px;
+     margin-left: 30px;
+}
+.inlay{
+    height: 200px;
+    width: 300px;
+   padding: 30px;
+   background-color: white;
+   border: 2px solid grey;
+}
+.overlay{
+ text-align: center;
+ margin-top: -30px;
+    /* left: 40%; */
+    /* transform: translate(-40%, -50%) */
+}
+.but{
+    text-align: center;
+    margin-top: 150px ;
+}
+.mb{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+.mb:hover{
+    background-color: aqua;
+}
+.guide-div{
+    margin-top: 150px;
+    display: flex;
+}
+.showcase{
+    width: 700px;
+}
+.inguide1 p{
+    margin-top: 30px;
+}
+.uber{
+    margin-top: 30px;
+    width: 70px;
+}
+.ppic{
+    border-radius: 50%;
+    width: 60px;
+}
+.second-sec{
+    color: white;
+    background-color: rgb(29, 104, 165);
+}
+.benefits{
+    margin-top: 80px;
+}
+.fbir{
+    text-align: center;
+}
+.cont{
+    gap: 20px;
+    margin: 20px;
+    display: flex;
+}
+.cont1{
+    margin-top: 35px;
+}
+.cont-p{
+    margin-top: 25px;
+}

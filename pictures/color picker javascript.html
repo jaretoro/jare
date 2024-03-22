@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker</title>
+    <link rel="stylesheet" href="color picker.css">
+</head>
+<body>
+    <div class="main-page">
+        <div class="picker">
+            <h3 title="current background-color" id="colorchange">#fff</h3>
+            <button onclick="getNewColor()">generate color</button>
+        </div>
+    </div>
+    <script>
+        function getNewColor() {
+            var alphanum = "0123456789abcdef";
+            var hash = "#";
+            for(var i = 0;i<6; i++){
+               hash= hash + alphanum[Math.floor(Math.random() * 16)]; 
+            }
+           
+            document.body.style.background = hash;
+            document.body.style.color = hash;
+            document.getElementById("colorchange").innerHTML  = hash;
+        }
+      
+    </script>
+</body>
+</html>

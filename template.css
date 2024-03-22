@@ -1,0 +1,51 @@
+
+.event{
+    display: flex;
+    background-color: rgb(124, 170, 124) ;
+}
+.cm ul{
+    display: flex;
+    
+}
+.cm ul li{
+    list-style: none;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.drew{
+    background-color: aliceblue;
+}
+.cody{
+    font-size: 18px;
+    color:#595959;
+    padding: 80px;
+    text-align: center;
+}
+.endo{
+    color: blue;
+   background-color:rgb(124, 170, 124);
+    text-align: center;
+    padding: 50px;
+}
+.rule{
+    text-align: center;
+}
+.last{
+    display: flex;
+    margin: 20px;
+}
+.last div{
+     margin: 20px;
+}
+.fin{
+    background-color: aqua;
+}
+.fin1{
+    background-color: rgb(25, 156, 117);
+}
+.fin2{
+    background-color: rgb(61, 21, 21);
+}
+.fin3{
+    background-color: rgb(68, 0, 255);
+}

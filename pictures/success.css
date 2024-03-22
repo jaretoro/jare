@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(29, 29, 68);
+    color: rgb(29, 29, 68);
+}
+.full-page{
+    margin-top: 150px;
+}
+.image{
+    width: 20%;
+}
+.small{
+    margin: auto;
+    align-self: center;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+    width: fit-content;
+}
+.but{
+    background-color: rgb(29, 29, 68);
+    border-radius: 5px;
+    width: 290px;
+    height: 40px;
+    color: white;
+}

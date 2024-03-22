@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page</title>
+
+</head>
+<style>
+    body{
+        background-color: whitesmoke;
+    }
+ img{
+    width: 100px;
+    height: 200px;
+    /* margin-top: -44px; */
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 500px;
+    width: 240px;
+ }
+ p{
+    font-family: inherit;
+    text-align: center;
+ }
+ form{
+    display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 16px;
+  width: 100%;
+  height: 380px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 0px;
+ }
+ form input {
+  outline: none;
+  padding: 10px 16px;
+  margin-bottom: 0.8rem;
+  font-size: 17px;
+}
+form .login {
+  outline: none;
+  border: none;
+  background: rgb(19, 148, 207);
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+}
+form .login:hover{
+    background: blue;
+    cursor: pointer;
+}
+form hr{
+    margin:16px;
+}
+form .create{
+    outline: none;
+  border: none;
+  background: green;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
+/* @media (max-width: 500px) { */
+    form{
+        width: 300px;
+        height: fit-content;
+    }
+    img{
+        width: 300px;
+        height: fit-content;
+    }
+    .create:hover{
+           background-color: darkgreen;
+           cursor: pointer;
+    }
+
+
+ 
+ 
+</style>
+<body>
+   <img src="/pictures/Facebook-Logo.wine.svg" alt="the facebook logo">
+    <form action="">
+        <p>Log in to Facebook</p>
+        <input type="text" placeholder="Email address or Phone Number"><br><br>
+        <input type="password" placeholder="Password" required><br><br>
+        <button class="login">log in</button>
+        <a href="">forgot Password</a>
+        <p>or</p>
+        <button class="create">Create New Account</button>
+    </form>
+       
+
+
+</body>
+</html>

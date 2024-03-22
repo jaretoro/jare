@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-nav{
+    display: flex;
+}
+.tai-logo{
+    width:75%; 
+    height:auto;
+    float:left;
+}
+.top-nav-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    padding: 20px;
+}
+.top-nav-form{
+    padding: 20px;
+}
+.nav-input{
+    width: 250px;
+}
+.second-nav-ul{
+    list-style-type: none;
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    gap: 80px;
+}
+.second-nav-ul li{
+    border-right: 2px s0lid black;
+}
+.second-nav-ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main-div{
+    display: flex;
+}
+.first-left{
+    display: flex;
+}
+.far-left{
+    background-image: url(/pictures/purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin: 15px;
+}
+.edtech{
+    width: fit-content;
+    margin-left: 40px;
+    bottom: 50%;
+    transform: translate(10%, 600%);
+    background-color: black;
+    color: rgb(172, 140, 80);
+}
+.edtechceo{
+    width: fit-content;
+    margin-left: 40px;
+    /* bottom: 50%; */
+    transform: translate(10%, 700%);
+    background-color: black;
+    color: rgb(172, 140, 80);
+}
+.prize{
+    display: flex;
+    margin-top: 20px;
+}
+.medal{
+    border-radius: 50%;
+    width: 30px;
+}
+.near-left{
+    height: fit-content;
+    width: 350px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: rgb(63, 30, 182);
+    color: white;
+    margin-left: -15px;
+}
+.visit{
+    background-color: rgb(31, 85, 31);
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 12px ;
+}
+.linked{
+    color: white;
+    text-decoration: none;
+}
+.creation{
+    width: 100px;
+}
+.three{
+    width: 60px;
+}
+.admissions-div{
+    background: linear-gradient(rgb(113, 113, 219),rgb(28, 28, 129));
+    height: fit-content;
+    width: fit-content;
+    padding: 15px 30px;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+}
+.second-left{
+    gap: 15px;
+    font-size: 12px;
+    display: flex;
+}
+.link-ul{
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+ol{
+    list-style-type: circle;
+}
+.main-list1{
+    display: flex;
+}
+.listed-one{
+    padding: 10px;
+}
+.link-ul li a{
+    color: aqua;
+}
+.links-list{
+    display: flex;
+}
+.plenty{
+    margin: 15px;
+}
+.plenty button{
+    font-size: 20px;
+}
+.down{
+    margin-top: 15px;
+}
+.total-news{
+    /* margin-top: 5px; */
+}
+.news-img{
+    width: 80px !important;
+}
+.update1{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.right-side{
+    margin-left: 10px;
+}
+.p-news{
+    margin-top: 15px;
+    font-size: 10px;
+}
+.h4-news{
+    font-size: 13px;
+}
+.view{
+    margin-top: 10px;
+}
+.icons{
+    cursor: pointer;
+    margin-top: 40px;
+    gap: 10px;
+    display: flex;
+    /* width: 100px; */
+}
+.little1{
+    width: 100px;
+}
+.little{
+    width: 40px;
+}
+.speak{
+    background-color: rgb(63, 30, 182) ;
+    /* color: white; */
+    margin-left: 19px;
+}
+.speak-list{
+    font-size: 15px;
+    display: block;
+    background-color: aquamarine;
+}
+.h2-speak{
+    background-color:  rgb(63, 30, 182);
+}
+.see-list li{
+    margin-top: 20px;
+}
+.gal-pics{
+    margin-top: 50px;
+    gap: 10px;
+    display: flex;
+    /* width: 100px; */
+}
+.pics{
+    width: 200px;
+    height: 200px;
+}
+.pics1{
+    width: 200px;
+    /* margin-top: 70px; */
+    height: 250px;
+}
+.cont-but{
+    margin-top: 300px;
+}
+.blue-but{
+    color: white;
+    background-color: blue;
+}
+.footer{
+    background-color: blue;
+}
+.dest{
+    gap: 20px;
+    display: flex;
+}
+.seth{
+    gap: 15px;
+    margin-top: 25px;
+}
+.seth li{
+    margin-top: 30px;
+    list-style-type: none;
+}
+.first-part{
+    color: white;
+    gap: 50px;
+    padding: 40px;
+    display: flex;
+}
+.sec-part{
+    margin-top: 20px;
+}
+.footer-p{
+    margin-top: 40px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}

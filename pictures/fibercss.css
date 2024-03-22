@@ -1,0 +1,242 @@
+    body{
+    padding: 0%;
+    margin: 0%; 
+    }
+    .para{
+        font-size: 30px;
+     
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .navigate{
+        display: flex;
+     }
+    .cont{
+        background-color: beige;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .navigate ul{
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .navigate ul li{
+        list-style-type: none;
+        float: left;
+        margin-left: 20px;
+        
+    }
+    .navigate ul li a{
+        justify-content: space-between;
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+     .navigate .lone{
+        margin-left: 70px;
+        margin-top: 100px;
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+     }
+     .but{
+        padding-top: 20px;
+        height: 60px;
+        width: 100px;
+        margin-left: 70px;
+        margin-top: 90px;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: blueviolet;
+        margin-bottom: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    .work{
+        display: flex;
+    }
+     .art{
+        margin-left: 100px;
+     }
+     .tar{
+        display: flex;
+     }
+     .hero{
+         font-size: 70px;
+         margin-left: 100px;
+     }
+     .pic{
+
+     }
+     .heroimg{
+        width: 480px;
+     }
+     .para2{
+        font-size: 25px;
+        margin-left: 100px;
+     }
+     .free{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 90px;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: blueviolet;
+        margin-bottom: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    .free2{
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    .checkimg{
+        margin-left: 100px;
+    }
+    .check{
+        display: flex;
+    }
+    .para3{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .para4{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 26px;
+        color: blueviolet;
+    }
+    .hero2{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 46px;
+    }
+    .time{
+        margin-left: 100px;
+    }
+    .build{
+        margin-left: 100px;
+        font-size: 25px;
+    }
+    .note{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    .flx{
+        display: flex;
+    }
+    .box{
+        width: 90%;
+        height: 350px;
+        background-color: blueviolet;
+        border-radius: 8px;
+        margin: 70px;
+        display: flex;
+    }
+    .innerh2{
+        color: white;
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .innerp{
+        color: white;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .inner{
+      padding-top: 40px;
+    }
+    .but1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 100px;
+        margin-top: 90px;
+        text-decoration: none;
+        font-size: 25px;
+        background-color:white;
+        margin-bottom: 35px;
+        border-radius: 10px;
+        text-align: center;
+        color: blueviolet;
+    }
+    .sidep{
+        width: 400px;
+        margin-left: 250px;
+        padding-top: 40px;  
+    } 
+    .review {
+        margin-bottom: 5rem;
+    }
+    .rec_cont {
+        display: flex;
+        align-items: center;
+    }
+    .card {
+        border-radius: 0.625rem;
+        border: solid #DADADA 0.0625rem;
+        margin-left: 1.5rem;
+        max-width: 30rem;
+        padding: 1.5rem 1.5rem;
+    }
+    .card_image{
+        display: flex;
+    align-items: center;
+    margin-bottom: 1rem 
+    }
+    .card_txt{
+        margin-left: 30px;
+    }
+    .sname{
+        color: purple;
+        font-size: 0.9375rem;
+    }
+    .rname{
+        font-size: 0.9375rem;
+    }
+    .cardp{
+        margin-bottom: 2rem;
+    font-size: 1rem;
+    }
+    .sarah_btn{
+        font-weight: 700;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    padding: 1.125rem 2rem;
+    text-align: center;
+    display: block;
+    /* width: 100% ; */
+    background-color: #FFFFFF;
+    /* color: #4D13D1; */
+    border: solid #DADADA;
+    }
+    .btn_box{
+        box-sizing: border-box;
+    }
+    .footer{
+        margin: 0%;
+        padding: 0%;
+        background-color:bisque;
+    }
+    .container{
+        display: flex;
+        font-size: 35px;
+    }
+
+    .fibre2 ul li{
+        list-style-type: none;
+    }
+    .fibre2 ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+

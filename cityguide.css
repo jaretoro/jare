@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.city{
+    background-color:white ;
+    display: flex;
+}
+.one {
+    list-style-type: none;
+    color: blue;
+    
+}
+.two{
+    margin-left: 750px;
+    list-style-type: none;
+    color: aqua;
+}
+.two li{
+  margin-right: 40px;
+  justify-content: space-between;
+  float: left;
+  text-align: right;
+}
+.corn{
+    width: 100%;
+    background-color: rgb(119, 31, 170, 0.5);
+}
+.corn_content{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.image{
+   margin-top: 70px;
+   border-radius: 50%;
+}
+
+.cornh3{
+    color: white;
+    font-weight: 700px;
+}
+.cornp{
+    color: #686868;
+    margin-bottom: 50px;
+}
+.first{
+    display: flex;
+}
+.image1{
+    width: 400px;
+}

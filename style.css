@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(179, 50, 50);
+    background-image: url(./biden.jfif);
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font: bold;
+}
+a{
+    color: red;
+}
+h3{
+    text-align: center;
+}
+table, th, td{
+   border: 1px solid black;
+  border-color: black;
+  border-collapse: collapse;
+
+  
+    
+}
+th{
+    background-color: gray;
+}
+.text{
+    border: 1px solid black;
+}
+button{
+    
+}
+img{
+    opacity: 0.5;
+}

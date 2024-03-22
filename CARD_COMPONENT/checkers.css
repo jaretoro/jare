@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full{
+    /* content: ''; */
+    background-color: red;
+    width: 580px;
+    height: 400px;
+}
+.step1{
+    borde
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+}
+.instep{
+    background-color: black;
+    width: 150px;
+    height: 100px;
+}
+.step2{
+    display: flex;
+    justify-content: space-between;
+}
+.contain{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
